@@ -54,6 +54,7 @@ i {
 }
 
 
+
 /** Componentes  */
 
 /****************************************************************/
@@ -435,30 +436,28 @@ font-size: 1.5rem;
 .estudios p {
     font-size: .6rem;
 }
-
+.estudios__h2{
+    font-size: 2.2rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
 /******************************
 ************* Footer **********
 *******************************/
 
 .footer {
-        display:flex;
-        justify-content: space-around;
-       padding: 2rem;
-       padding-top: 10rem;
-        
+       display:flex;
+       padding: 5rem 1rem;
+       justify-content: center;
     }
 
-.footer ul {
-        display:flex;
-        gap: 4em;
-        list-style-type: none;
-    }
+
     .formbox{
         display:flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        width:700px;
+        width: 45%;
     }
 
    
@@ -470,7 +469,13 @@ font-size: 1.5rem;
     
     }
     
-
+    .footer-map {
+        padding:0;
+        width: 40%;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+    }
 /******************************
 ************* Mediaquerys **********
 *******************************/
@@ -513,7 +518,7 @@ font-size: 1.5rem;
     .hero__der {
         margin: 0 auto;
         padding: 5rem, 0;
-        gap: 2rem;
+        gap: 1rem;
         
     }
     .hero {
@@ -532,8 +537,8 @@ font-size: 1.5rem;
     .hero__izq img {
         position: relative;
         z-index: 22;
-        width: 80%;
-        height: 260px;
+        width: 50%;
+        aspect-ratio:1;
     }
   
 
@@ -545,13 +550,17 @@ font-size: 1.5rem;
         }
     
     .navbar__btn {
-            font-size:  2em;
+        font-size:  2em;
 }
     .hero {
         width: 100%;
+        padding:0
     }
     .hero__der {
         text-align: center;
+        padding: 0;
+        width: 90%;
+        font-size: .9rem;
     }
     .hero__izq img {
         
