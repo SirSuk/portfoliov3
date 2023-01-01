@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,400;1,500&family=Dancing+Script:wght@400;700&family=Dosis:wght@300;400;700;800&family=Rubik+Distressed&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+</head>
+<body>
+    <header id="home">
+        <div class="caja__logo">
+            <img 
+            class="header__img"
+            src="./logoo.png    ">
+        </div>
+        <nav class="navbar">
+            <div class="navbar__navegacion">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#proyectos">Proyects</a></li>
+                <li><a href="#tecnologias">Stack</a></li>
+                <li><a href="#contact"> Contact </a></li>
+                <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+
+                <li><a href="#"><i class="fa-solid fa-code"></i></a></li>
+            </ul>
+        </div>
+        <div class="navbar__btn" id="burguer">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+            
+        </nav>
+
+    </header>
+
+    <div class="hero" id="aboutme">
+        <section class="hero__der">
+            <h1 class="titulo_movimiento"></h1>
+            <h2 class="hero__der__h2">Web Designer</h2>
+            
+            <br class="hero__der__p">
+                Disfruto creando webs responsivas. Me encanta ser creativo! Busco innovar, creando código lo mas limpio posible, y con buenas prácticas.</br>
+                Realizo proyectos de distintos tipos, con dominio de tecnologías Frontend y Backend.
+            </p>
+        </section>
+        <section class="hero__izq">
+            <i id="btnColores" class="fa-solid fa-palette"></i>
+            <img src="./imagen.jpg" 
+                alt="fotoperfil">
+                <button class="glow-on-hover">Contactame</button>
+        </section>
+        
+    </div>
+
+    
+    <div class="progs" >
+        
+        <i class="fa-brands fa-html5" id="icono"></i>
+        <i class="fa-brands fa-css3-alt" id="icono"></i>    
+        <i class="fa-brands fa-js" id="icono"></i>
+        <i class="fa-brands fa-bootstrap" id="icono"></i>
+        <i class="fa-brands fa-sass" id="icono"></i>
+        <i class="fa-brands fa-git" id="icono"></i>
+        <i class="fa-brands fa-github" id="icono"></i>
+        <i class="fa-brands fa-node" id="icono"></i>
+        <i class="fa-brands fa-angular" id="icono"></i>
+        <i class="fa-brands fa-react" id="icono"></i>
+        
+
+        
+    </div>
+
+
+    <main class="proyectos" id="proyectos">
+        <h2 class="progs__h2"> Proyectos Realizados </h2>
+        <section class="tarjetas">
+
+<!------Tarjeta 1 - Todo huerta ------>
+            <div class="tarjeta ">
+                <img src="./todoapp-mododia.jpg" alt="img" class="tarjeta__img cambiomodo">
+               <h2 class="tarjeta__titulo">Todo App Huerta</h2>
+               <p class="tarjeta__texto">Web creada con HTML,CSS,JavaScript</p> 
+               <div class="tarjeta__btnbox">
+                   <a target=”_blank” href="https://github.com/SirSuk/todohuerta" class="tarjeta__btn tarjeta__btn1">Github Repo</a>
+                    <a target=”_blank” href="www.radifelnoun.com" class="tarjeta__btn tarjeta__btn2">Website</a>   
+            </div>
+            </div>  
+
+<!------Tarjeta 2 - Juego de Memoria ------>
+            <div class="tarjeta ">
+                <img src="./animalmemorygame.jpg" alt="img" class="tarjeta__img">
+               <h2 class="tarjeta__titulo">Animal Memorygame</h2>
+               <p class="tarjeta__texto">Web creada con HTML,CSS,JavaScript</p> 
+               <div class="tarjeta__btnbox">
+                   <a target=”_blank” href="https://github.com/SirSuk/Ecohuerta-Bustan.git" class="tarjeta__btn tarjeta__btn1">Github Repo</a>
+                    <a target=”_blank” href="www.radifelnoun.com" class="tarjeta__btn tarjeta__btn2">Website</a>   
+            </div>
+            </div> 
+
+<!------Tarjeta 3 - EcoBustan Organic ------>
+            <div class="tarjeta">
+                <img src="./card6.png" alt="img" class="tarjeta__img">
+               <h2 class="tarjeta__titulo">EcoBustan Organics</h2>
+               <p class="tarjeta__texto">Web creada con ReactJS, TailwindCSS</p> 
+               <div class="tarjeta__btnbox">
+                   <a target=”_blank” href="https://github.com/SirSuk/Ecohuerta-Bustan.git" class="tarjeta__btn tarjeta__btn1">Github Repo</a>
+                    <a target=”_blank” href="www.radifelnoun.com" class="tarjeta__btn tarjeta__btn2">Website</a>
+            </div>
+            </div>      
+            <div class="tarjeta">
+                <img src="./millonario.png" alt="img" class="tarjeta__img">
+                <h2 class="tarjeta__titulo">Wannabe millonario?</h2>
+                <p class="tarjeta__texto">Web creada con ReactJS, TailwindCSS</p> 
+                <div class="tarjeta__btnbox">
+                    <a target=”_blank” href="https://github.com/SirSuk/Ecohuerta-Bustan.git" class="tarjeta__btn tarjeta__btn1">Github Repo</a>
+                    <a target=”_blank” href="www.radifelnoun.com" class="tarjeta__btn tarjeta__btn2">Website</a>
+                </div>
+             </div> 
+             <div class="tarjeta">
+                 <img src="./netflix.png" alt="img" class="tarjeta__img"> 
+                <h2 class="tarjeta__titulo">Netflix Clone</h2>
+                <p class="tarjeta__texto">Web creada con ReactJS, TailwindCSS</p>
+                <div class="tarjeta__btnbox">
+                    <a target=”_blank” href="https://github.com/SirSuk/Ecohuerta-Bustan.git" class="tarjeta__btn tarjeta__btn1">Github Repo</a>
+                    <a target=”_blank” href="www.radifelnoun.com" class="tarjeta__btn tarjeta__btn2">Website</a>
+                </div>
+             </div> 
+             <div class="tarjeta">
+                 <img src="./card5.png" alt="img" class="tarjeta__img">
+                <h2 class="tarjeta__titulo">Todo App</h2>
+                <p class="tarjeta__texto">Web creada con ReactJS, TailwindCSS</p> 
+                <div class="tarjeta__btnbox">
+                    <a target=”_blank” href="https://github.com/SirSuk/Ecohuerta-Bustan.git" class="tarjeta__btn tarjeta__btn1">Github Repo</a>
+                    <a target=”_blank” href="www.radifelnoun.com" class="tarjeta__btn tarjeta__btn2">Website</a>
+                </div>
+             </div> 
+            
+             <div class="tarjeta">
+                 <img 
+                 class="tarjeta__img"
+                 src="./card2.png" 
+                 alt="img">
+                 
+                <h2 class="tarjeta__titulo">Frontend Mentor</h2>
+                <p class="tarjeta__texto">Web creada con HTML,CSS,JavaScript</p> 
+                <div class="tarjeta__btnbox">
+                    <a target=”_blank” href="https://github.com/SirSuk/Ecohuerta-Bustan.git" class="tarjeta__btn tarjeta__btn1">Github Repo</a>
+                    <a target=”_blank” href="www.radifelnoun.com" class="tarjeta__btn tarjeta__btn2">Website</a>
+                </div>
+             </div> 
+             <div class="tarjeta">
+                <img 
+                class="tarjeta__img"
+                src="./bootstrap.png" 
+                alt="img">
+                
+               <h2 class="tarjeta__titulo">Bootstrap Web</h2>
+               <p class="tarjeta__texto">Web creada con HTML y Bootstrap</p> 
+               <div class="tarjeta__btnbox">
+                <a target=”_blank” href="https://github.com/SirSuk/Ecohuerta-Bustan.git" class="tarjeta__btn tarjeta__btn1">Github Repo</a>
+                <a target=”_blank” href="www.radifelnoun.com" class="tarjeta__btn tarjeta__btn2">Website</a>
+               </div>
+            </div> 
+              
+             <div class="tarjeta">
+                <img 
+                class="tarjeta__img"
+                src="./card1.png" 
+                alt="img">
+                
+               <h2 class="tarjeta__titulo">Video App</h2>
+               <p class="tarjeta__texto">Web creada con HTML,CSS,JavaScript</p> 
+               <div class="tarjeta__btnbox">
+                <a target=”_blank” href="https://github.com/SirSuk/Ecohuerta-Bustan.git" class="tarjeta__btn tarjeta__btn1">Github Repo</a>
+                <a target=”_blank” href="www.radifelnoun.com" class="tarjeta__btn tarjeta__btn2">Website</a>
+               </div>
+            </div> 
+                        
+        </section>
+    </main>
+
+
+
+    <section class="estudios">
+        <article class="estudios__otros">
+            <h3 class="progs__h2"> Cursos y awards</h3>
+            <h4>CodeHouse Academy</h4>
+            <p>Full Stack Developer Bootcamp (500 hours)</p>
+            <h4>IES Luis Vives, Madrid. </h4>
+            <p>CFGS - Administración de Sistemas Informáticos y Redes</p>
+            <h4>IES Luis Vives, Madrid.</h4>
+            <p>CFGM - Explotación de Sistemas Informáticos</p>
+        </article>
+
+        <article class="estudios__otros">
+            <h3 class="progs__h2"> Cursos y awards</h3>
+            <h4>CodeHouse Academy</h4>
+            <p>Full Stack Developer Bootcamp (500 hours)</p>
+            <h4>IES Luis Vives, Madrid. </h4>
+            <p>CFGS - Administración de Sistemas Informáticos y Redes</p>
+            <h4>IES Luis Vives, Madrid.</h4>
+            <p>CFGM - Explotación de Sistemas Informáticos</p>
+        </article>
+        
+    </section>
+
+
+
+
+    <footer class="footer" id="contact">
+        <div class="formbox">
+            <h2 class="progs__h2"> Contáctame!</h2>
+            <form class="form">
+                <label class="form__label" for="name">Nombre</label>
+                <input class="form__input" type="text">
+                
+                <label class="form__label" for="name">Asunto</label>
+                <input class="form__input" type="text">
+                <textarea class="form__textarea" name="" id="" placeholder="Escribe tu"cols="30" rows="10"></textarea>
+            </form>
+        </div>
+        <nav class="navbar">
+            <div class="navbar__navegacion">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#proyectos">Proyects</a></li>
+                <li><a href="#tecnologias">Stack</a></li>
+                <li><a href="#contact"> Contact </a></li>
+                <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+
+                <li><a href="#"><i class="fa-solid fa-code"></i></a></li>
+            </ul>
+        </div>
+        <div class="navbar__btn" id="burguer">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+            
+        </nav>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
