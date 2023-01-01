@@ -149,8 +149,7 @@ height: 100px;
     flex-direction: column;
     display: flex;
     justify-content: center;
-    align-items: center;
-    
+    align-items: center; 
 }
 
 
@@ -169,6 +168,7 @@ height: 100px;
     transform:scaleY(1.1)
 }
 
+
 .hero__izq img {
 width: 200px;
 height: 200px;
@@ -179,12 +179,14 @@ margin-bottom: 2rem;
 }
 .hero__izq button {
     padding:0;
-    border-radius: 20px;
+    border-radius: 10px;
 }
 
+
 .titulo_movimiento{
-    font-size: 2.4em;
+    font-size: 2.8em;
 }
+
 
 .hero__der {
     width: 60%;
@@ -198,22 +200,35 @@ margin-bottom: 2rem;
 }
 
 
-
 .hero__der__h2 {
-    font-size: 1.2em;
+    font-size: 1em;
 }
 
 .hero__der__p {
-    font-size: 1.2em;
+    font-size: 1rem;
     text-align: center;
 }
+
+.hero__btn {
+    width: 220px;
+    height: 50px;
+}
+/* .codeimg{
+    width:70%;
+    height: 50%;
+    border-radius: 10px;
+
+} */
+
+
+
+
+
 
 
 /*botondecolores*/
 
 .glow-on-hover {
-    width: 220px;
-    height: 50px;
     border: none;
     outline: none;
     color: #fff;
@@ -358,66 +373,36 @@ margin-bottom: 2rem;
     
 }
 .tarjeta__titulo {
-font-size: 1.5rem;
+    font-size: 1.5rem;
 }
 
 .tarjeta__texto {
     font-size: 1.2rem;
+    text-align: center;
     }
 
 .tarjeta__btnbox {
+    width: 100%;
     display:flex;
     padding: 20px;
+    justify-content: space-between;
 }
-
-
-.tarjeta__btn1 {
-   margin-right: 20px;
-}
-
 .tarjeta__btn {
     text-decoration: none;
     cursor: pointer;
+    text-align: center;
     border-radius: 20px;
-	color: black;
 	transition: all 0.3s;
-	position: relative;
-    background: #fff; 
-    color: black; 
-    border: 2px solid black; 
-    padding: 10px 20px;
-    border-radius: 20px; 
-    position: relative;
-    z-index: 1;
-    overflow: hidden;
-    display: inline-block;
+	padding: 10px 20px; 
+    box-shadow: 0 14px 22px rgba(0,0,0,0.20), 0 12px 10px rgba(0,0,0,0.12);
   }
-  .tarjeta__btn:hover {
-    color: #fff; 
-  }
-  .tarjeta__btn::after {
-    content: "";
-    background:black;
-    position: absolute;
-    z-index: -1;
-    display: block;
-    left: 0;
-    right: 0;
-    top: 100%;
-    bottom: -100%;
-    -webkit-transition: all 0.35s;
-    transition: all 0.55s;
-    
-  }
-  .tarjeta__btn:hover::after {
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    -webkit-transition: all 0.35s;
-    transition: all 0.35s;
-  }
-
+  
+.tarjeta__btn1 {
+width: 45%;
+}
+.tarjeta__btn2{
+    width: 45%;
+}
 
 /******************************
 ************* seccion estudios **********
@@ -476,9 +461,14 @@ font-size: 1.5rem;
         justify-content: center;
         align-items: center;
     }
-/******************************
-************* Mediaquerys **********
-*******************************/
+
+
+
+
+
+/*************************************************************************************
+************* Mediaquerys *****************************************************************
+********************************************************************************************/
     
 @media (max-width: 850px) {
     
@@ -497,7 +487,7 @@ font-size: 1.5rem;
 
         }
         .hero__der__p {
-            font-size: 1.2rem;
+            font-size: .9rem;
         }
 
         .progs {
@@ -540,13 +530,29 @@ font-size: 1.5rem;
         width: 50%;
         aspect-ratio:1;
     }
+    .hero__der__p {
+        font-size: .8rem;
+        margin-bottom: 1rem;
+    }
+    .titulo_movimiento {
+        font-size: 2rem;
+    }
+
+}
+
+@media ( max-width: 636px) {
+
+    .hero__izq img {
+        
+        height: 120px;
+    }
   
 
 }
 
 @media ( max-width: 500px) {
     .header__img {
-        height: 70px;
+        height: 80px !important;
         }
     
     .navbar__btn {
@@ -564,7 +570,7 @@ font-size: 1.5rem;
     }
     .hero__izq img {
         
-        height: 200px;
+        height: 120px;
     }
   
 

@@ -7,11 +7,11 @@ const cambioModo = document.querySelector('.cambiomodo');
 
 
 cambioModo.addEventListener('mouseover', () => {
-    cambioModo.src = "./todoapp-modonoche.jpg"
+    cambioModo.src = "./assets/todoapp-modonoche.jpg"
 })
 
 cambioModo.addEventListener('mouseleave', () => {
-    cambioModo.src = "./todoapp-mododia.jpg"
+    cambioModo.src = "./assets/todoapp-mododia.jpg"
 })
 
 /* handle hamburguer */
@@ -24,20 +24,16 @@ cambioModo.addEventListener('mouseleave', () => {
 btn.addEventListener('click', () => {
     document.body.style.background = colorChange()
 })
-
 function colorChange () {
     return `hsl(${Math.floor(Math.random()*360)}, 20% ,70%)`
 }
 
 
 /* auto text writer */
-
 let index = 0;
-
 function writeText() {
     domH1.innerHTML = text.slice(0, index);
     index++;
 }
-
-setInterval(writeText, 400)
+setInterval(writeText, 500)
 
