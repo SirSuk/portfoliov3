@@ -4,6 +4,7 @@ const domH1 = document.querySelector('.titulo_movimiento');
 const text = "Hi, I'm Radif"
 const hamburguer = document.querySelector('#burguer');
 const cambioModo = document.querySelector('.cambiomodo');
+const cambioModoGame = document.querySelector('.cambioModoGame')
 
 
 cambioModo.addEventListener('mouseover', () => {
@@ -12,6 +13,15 @@ cambioModo.addEventListener('mouseover', () => {
 
 cambioModo.addEventListener('mouseleave', () => {
     cambioModo.src = "./assets/todoapp-mododia.jpg"
+})
+
+
+cambioModoGame.addEventListener('mouseover', () => {
+    cambioModoGame.src = "./assets/animalmemory2.jpg"
+})
+
+cambioModoGame.addEventListener('mouseleave', () => {
+    cambioModoGame.src = "./assets/animalmemorygame.jpg"
 })
 
 /* handle hamburguer */
