@@ -464,7 +464,7 @@ width: 45%;
 @media (max-width: 850px) {
     
     .hero {
-    padding: 3rem;
+    padding: 2rem;
     }
         .navbar__navegacion {
             display:none;   
@@ -486,7 +486,7 @@ width: 45%;
             flex-wrap: wrap;
             justify-content: center;
             align-items: center;
-            gap: 4rem;
+            gap: 1rem;
         } 
         
     }
@@ -498,7 +498,7 @@ width: 45%;
     }
     .hero__der {
         margin: 0 auto;
-        padding: 5rem, 0;
+        padding: 3rem, 0;
         gap: 1rem;
         
     }
@@ -518,15 +518,16 @@ width: 45%;
     .hero__izq img {
         position: relative;
         z-index: 22;
-        width: 50%;
-        aspect-ratio:1;
+        width: 40%;
+        
     }
     .hero__der__p {
-        font-size: .8rem;
+        font-size: .6rem;
         margin-bottom: 1rem;
     }
     .titulo_movimiento {
-        font-size: 2rem;
+        font-size: 1.7rem;
+        
     }
 
 }
