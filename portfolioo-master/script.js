@@ -1,10 +1,21 @@
 
+
+
 const btn= document.getElementById("btnColores");
 const domH1 = document.querySelector('.titulo_movimiento');
 const text = "Hi, I'm Radif"
 const hamburguer = document.querySelector('#burguer');
 const cambioModo = document.querySelector('.cambiomodo');
 const cambioModoGame = document.querySelector('.cambioModoGame')
+
+
+const botonVibrante = () => {
+    console.log(btn)
+    btn.classList.add("vibracion");
+}
+
+
+
 
 
 cambioModo.addEventListener('mouseover', () => {
@@ -47,3 +58,5 @@ function writeText() {
 }
 setInterval(writeText, 500)
 
+
+window.onload = botonVibrante();

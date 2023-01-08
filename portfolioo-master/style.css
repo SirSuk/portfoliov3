@@ -53,7 +53,9 @@ i {
     color: #1c1c1c
 }
 
-
+.vibracion {
+    transform: rotate(180deg);
+}
 
 /** Componentes  */
 
@@ -152,17 +154,15 @@ height: 100px;
     align-items: center; 
 }
 
-
-
-
 #btnColores{
     margin-bottom: 2rem;
     position:absolute;
     top:100px;
     right: 25px;
     border: 1px solid black;
-    padding: .4rem;
-    border-radius: 10px
+    padding: .6rem;
+    border-radius: 10px;
+    transition: all 5s ease;
 }
 #btnColores:hover {
     background-color: #bcb851;
